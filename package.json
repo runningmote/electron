@@ -8,7 +8,8 @@
     "@testing-library/user-event": "^7.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "trtc-electron-sdk": "^7.2.174"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,5 +31,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "electron": "^9.0.0",
+    "electron-builder": "^22.6.1",
+    "native-ext-loader": "^2.3.0"
   }
 }
